@@ -28,6 +28,7 @@ function Sidebar({ setAuth }) {
           </NavLink>
         </li>
         <li>
+          {/* ♝ Logout */}
           <button className="link-navbar" onClick={handleLogout}>
             ♝ Logout
           </button>

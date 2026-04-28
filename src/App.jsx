@@ -13,7 +13,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar status={isLoggedIn} setAuth={() => setIsLoggedIn(false)} />
 
       <div className="navbar">
         {isLoggedIn && <Sidebar setAuth={() => setIsLoggedIn(false)} />}
